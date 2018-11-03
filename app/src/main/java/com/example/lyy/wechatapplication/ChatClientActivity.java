@@ -48,5 +48,6 @@ public class ChatClientActivity extends AppCompatActivity {
         content.setContent(inputMessage);
         contents.add(content);
         messageEditText.setText("");
+        adapter.notifyDataSetChanged();
     }
 }
